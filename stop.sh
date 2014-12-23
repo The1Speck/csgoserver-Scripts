@@ -2,7 +2,7 @@
 #Server Stop Script by The1Speck
 
 #VARS
-$SRVRNICK = "csgo-bleh"
+$SRVRNICK="csgo-bleh"
 
 if screen -ls | grep -q $SRVRNICK; then
 	screen -S $SRVRNICK -X quit 
